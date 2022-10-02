@@ -46,6 +46,6 @@ conda install -y -c conda-forge jupyterlab=1
 (cd beakerx_tabledisplay; pip install -e .)
 beakerx_tabledisplay install
 jupyter labextension install @jupyter-widgets/jupyterlab-manager --no-build
-jupyter labextension install . --no-build
+(cd beakerx_tabledisplay/beakerx_tabledisplay/js; jupyter labextension install . --no-build )
 jupyter lab build
 ```
