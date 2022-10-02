@@ -268,7 +268,7 @@ export class CellManager {
     };
 
     function getStartIndex(has_index) {
-      return has_index ? 0 : 1;
+      return has_index ? 1 : 0;
     }
 
     function exportCells(cells, exportOptions) {
